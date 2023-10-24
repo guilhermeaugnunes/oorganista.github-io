@@ -1,0 +1,144 @@
+body{
+    padding: 0%;
+    margin: 0%;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    align-items: center;
+}
+
+p {
+    text-align: justify;
+    width: 60%;
+    font-size: 15px;
+    color: #525151;
+}
+
+li.bolinha{
+    font-size: 20px;
+}
+
+p.texto{
+    color: #000000;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: justify;    
+}
+
+p.texto2{
+    color: #000000;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+hr {
+    border: 0px;
+    border: solid 1px;
+    color: #999999;
+    border-style: double;
+    margin: 10px;
+}
+
+footer {
+    text-align: center;
+    color:#818080
+}
+
+.redes-sociais {
+    text-align: right;
+}
+
+.logos {
+    height: 30px;
+}
+
+.logos:hover {
+    transform: scale(1.2); 
+    
+}
+
+.menu-opt {
+    justify-content: center;
+    height: 35px;
+    display: flex;
+    width: 100%;
+}
+
+.menu-opt li {
+    align-items: center;
+    text-align: center;
+    margin-right: 25px;
+    list-style-type: none;
+    vertical-align: middle;
+}
+
+.img-index{
+    border: solid 1px;
+    border-radius: 10px;
+}
+
+.img-sobre{
+    display: flex;
+    margin-left: auto;
+    width: 30%;
+    border: solid 1px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.menu-link {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    
+    height: 35px;
+    width: 100%;
+    margin-top: 12px;
+}
+
+.menu-link:hover{
+    color: rgb(133, 133, 138);
+}
+
+.limpa {
+    clear: both;
+}
+
+/* SOBRE */
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.text {
+    flex: 1;
+    padding: 20px;
+}
+
+.image {
+    
+    padding: 20px;
+}
