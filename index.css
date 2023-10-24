@@ -71,6 +71,7 @@ footer {
 
 .logos {
     height: 30px;
+    transition: 500ms;
 }
 
 .logos:hover {
